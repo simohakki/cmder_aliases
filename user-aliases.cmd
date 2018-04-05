@@ -7,9 +7,14 @@
 e.=explorer .
 gl=git log --oneline --all --graph --decorate  $*
 ls=ls --show-control-chars -F --color $*
+ll=ls -lrt --show-control-chars -F --color $*
 pwd=cd
 clear=cls
 history=cat "%CMDER_ROOT%\config\.history"
 unalias=alias /d $1
 vi=vim $*
 cmderr=cd /d "%CMDER_ROOT%"
+aliaspath=vim "C:\Program Files\cmder\config\user-aliases.cmd"
+np=start notepad++ $*
+git_repo=cd /d "C:\Users\%USERNAME%\Documents\GitHub" 
+git_repo=cd /d "C:\Program Files\cmder\config\batchs\touch_log_file.bat" 
