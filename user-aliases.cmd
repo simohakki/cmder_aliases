@@ -18,3 +18,6 @@ aliaspath=vim "C:\Program Files\cmder\config\user-aliases.cmd"
 np=start notepad++ $*
 git_repo=cd /d "C:\Users\%USERNAME%\Documents\GitHub" 
 git_repo=cd /d "C:\Program Files\cmder\config\batchs\touch_log_file.bat" 
+ci=cd /d "C:\WORK\CI_MHI" 
+BUBBLE=cd /d "C:\WORK\BUBBLE" 
+desktop=cd /d "C:\Users\hakkimoh\Desktop" 
