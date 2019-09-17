@@ -1,0 +1,11 @@
+alias git_repo=cd /d "C:\Program Files\cmder\config\batchs\touch_log_file.bat"
+alias git_repo=cd /d "C:\Users\%USERNAME%\Documents\GitHub" 
+alias np=start notepad++ $1
+alias e.=explorer .
+alias gl=git log --oneline --all --graph --decorate  .
+alias ls=ls -lrt
+alias pwd=cd
+alias clear=cls
+alias history=cat "%CMDER_ROOT%\config\.history"
+alias unalias=alias /d $1
+alias ll=ls -lrt --show-control-chars -F --color
